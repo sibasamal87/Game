@@ -50,6 +50,7 @@ public class JumpGirlRuka extends Cocos2dxActivity{
 
         this.mGLSurfaceView.setEGLContextClientVersion(2);
         this.mGLSurfaceView.setCocos2dxRenderer(new Cocos2dxRenderer());
+        System.out.println("github updated:::");
 	}
 	
     static {
