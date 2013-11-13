@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+              android:layout_width="fill_parent" 
+              android:layout_height="fill_parent" 
+              android:orientation="horizontal" 
+              android:layout_gravity="bottom">
+
+              <RelativeLayout 
+                android:id="@+id/ADLayout" 
+                android:layout_width="fill_parent" 
+                android:layout_height="fill_parent">
+
+	                 <org.cocos2dx.lib.Cocos2dxGLSurfaceView
+	                  android:id="@+id/gl_surface_view1" 
+	                  android:layout_width="fill_parent" 
+	                  android:layout_height="fill_parent"/>
+	                
+	                 <RelativeLayout 
+		                android:id="@+id/adLayer" 
+		                android:layout_width="fill_parent" 
+		                android:layout_height="fill_parent"
+		                android:background="@android:color/transparent"
+		                android:visibility="visible">
+		                
+		                <LinearLayout
+			              android:layout_width="fill_parent" 
+			              android:layout_height="50dp" 
+			              android:id="@+id/adLayerTopBanner"
+			              android:orientation="horizontal" 
+			              android:layout_alignParentTop="true"
+			              android:background="#00000000" >
+			            </LinearLayout>
+			            
+		                <LinearLayout
+			              android:layout_width="fill_parent" 
+			              android:layout_height="wrap_content" 
+			              android:paddingLeft="8dp"
+			              android:paddingRight="8dp"
+			              android:id="@+id/adLayerIcon2"
+			              android:orientation="vertical" 
+			              android:layout_centerInParent="true"
+			              android:background="#00000000"
+			              >
+			            </LinearLayout>
+			            
+			            <LinearLayout
+			              android:layout_width="fill_parent" 
+			              android:layout_height="140dp" 
+			              android:id="@+id/bottomBar"
+			              android:orientation="horizontal" 
+			              android:layout_alignParentBottom="true"
+			              >
+				            
+			            </LinearLayout>
+			            
+	               </RelativeLayout>
+	               <LinearLayout
+			              android:layout_width="fill_parent" 
+			              android:layout_height="wrap_content" 
+			              android:paddingLeft="8dp"
+			              android:paddingRight="8dp"
+			              android:id="@+id/adLayerIcon"
+			              android:orientation="vertical" 
+			              android:layout_above="@+id/adstriBar"
+			              android:layout_marginBottom="120dp"
+			              android:layout_centerInParent="true"
+			              android:background="#00000000"
+			              >
+<!-- 			              <include layout="@layout/custom_ad_icon_item" /> -->
+			       </LinearLayout>
+	               <LinearLayout
+			              android:layout_width="fill_parent" 
+			              android:layout_height="50dp" 
+			              android:id="@+id/adstriBar"
+			              android:orientation="horizontal" 
+			              android:layout_alignParentBottom="true"
+			              android:background="#000000"
+			              >
+			            
+<!-- 	                     <com.ad_stir.webview.AdstirWebView  -->
+<!-- 							media="MEDIA-495531b5" -->
+<!-- 							spot="1" -->
+<!-- 							android:layout_width="fill_parent" -->
+<!-- 							android:layout_height="wrap_content" /> -->
+	                     
+			       </LinearLayout>
+              </RelativeLayout>
+</LinearLayout>
