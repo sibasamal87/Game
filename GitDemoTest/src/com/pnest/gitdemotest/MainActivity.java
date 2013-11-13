@@ -10,7 +10,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		System.out.println("inside test of git 3");
+		System.out.println("inside test of git 4");
 	}
 
 	@Override
