@@ -12,6 +12,9 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		
 		System.out.println("inside testing 11111");
+		System.out.println("inside testing 2222222");
+		System.out.println("inside testing 3333333");
+		
 	}
 
 	@Override
